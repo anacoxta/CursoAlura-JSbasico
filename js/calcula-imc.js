@@ -18,10 +18,10 @@ for (var i = 0; i < pacientes.length; i++) {
     var altura = tdAltura.textContent;
     var peso = tdPeso.textContent;
 
-    var pesoEhValido = true;
-    var alturaEhValida = true;
+    var pesoEhValido = validaPeso(peso);
+    var alturaEhValida = validaAltura(altura);
 
-    if (peso <= 0 || peso >= 600) {
+    if (!pesoEhValido) {
         console.log("Peso inválido");
         pesoEhValido = false;
         tdPeso.textContent = "Peso inválido";
@@ -29,7 +29,7 @@ for (var i = 0; i < pacientes.length; i++) {
         paciente.classList.add("campo-invalido");
     }
     
-    if (altura <= 0 || altura >= 3) {
+    if (!alturaEhValida) {
         console.log("Altura inválida");
         alturaEhValida = false;
         tdAltura.textContent = "Altura inválida";
@@ -40,8 +40,10 @@ for (var i = 0; i < pacientes.length; i++) {
     if (alturaEhValida && pesoEhValido) {
         var imc = calculaImc(peso,altura);
         tdImc.textContent = imc;
+    } else if (alturaEhValida || pesoEhValido) {
+        tdImc.textContent = "Corrija o dado inválido"
     } else {
-        tdImc.textContent = "Corrija o(s) dado(s) inválido(s)."
+        tdImc.textContent = "Corrija os dados inválidos"
     }
 
 }
@@ -50,4 +52,20 @@ function calculaImc(peso,altura) {
     var imc = 0;
     imc = peso / (altura **2);
     return imc.toFixed(2);
+}
+
+function validaPeso(peso) {
+    if (peso >= 0 && peso <= 700) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+function validaAltura(altura) {
+    if (altura >= 0 && altura <= 2.75) {
+        return true;
+    } else {
+        return false;
+    }
 }

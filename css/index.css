@@ -132,3 +132,9 @@ button[disabled=disabled], button:disabled {
 .campo-invalido{
 	background-color: lightcoral;
 }
+
+#mensagens-erro li {
+	color: red;
+	width: auto;
+	margin: 4px 0;
+}
