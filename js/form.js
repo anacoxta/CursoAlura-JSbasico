@@ -1,6 +1,6 @@
 /*
-    OBSERVAÇÃO:
-    CÓDIGO EXAGERADAMENTE COMENTADO PARA FINS DIDÁTICOS
+    DEVELOPER'S NOTE:
+    OVERLY COMMENTED CODE FOR EDUCATIONAL PURPOSES
 */
 
 
@@ -18,13 +18,13 @@ botaoAdicionar.addEventListener("click", function(cliqueBotao) {
 
     var erros = validaPaciente(paciente);
     if (erros.length > 0) {
-        console.log(erros);
+        //console.log(erros);
         exibeMensagensDeErro(erros);
         return;
     }
 
     if (!validaPaciente(paciente)) {
-        console.log("Erro. Verifique os dados.");
+        //console.log("Erro. Verifique os dados.");
         return; //force quit a função sem inserir na tabela
     }
 

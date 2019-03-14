@@ -1,6 +1,6 @@
 /*
-    OBSERVAÇÃO:
-    CÓDIGO EXAGERADAMENTE COMENTADO PARA FINS DIDÁTICOS
+    DEVELOPER'S NOTE:
+    OVERLY COMMENTED CODE FOR EDUCATIONAL PURPOSES
 */
 
 var titulo = document.querySelector(".titulo"); //> busca o elemento com classe 'titulo' e atribui à var
@@ -22,7 +22,7 @@ for (var i = 0; i < pacientes.length; i++) {
     var alturaEhValida = validaAltura(altura);
 
     if (!pesoEhValido) {
-        console.log("Peso inválido");
+        //console.log("Peso inválido");
         pesoEhValido = false;
         tdPeso.textContent = "Peso inválido";
         //paciente.style.backgroundColor = "lightcoral"; //muda o estilo via JS
@@ -30,7 +30,7 @@ for (var i = 0; i < pacientes.length; i++) {
     }
     
     if (!alturaEhValida) {
-        console.log("Altura inválida");
+        //console.log("Altura inválida");
         alturaEhValida = false;
         tdAltura.textContent = "Altura inválida";
         //paciente.style.backgroundColor = "lightcoral"; //muda o estilo via JS 
