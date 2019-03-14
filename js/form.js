@@ -14,7 +14,6 @@ botaoAdicionar.addEventListener("click", function(cliqueBotao) {
     var form = document.querySelector("#form-adiciona");
 
     var paciente = obtemPacientedoForm(form);
-    var pacienteTr = montaTr(paciente);
 
     var erros = validaPaciente(paciente);
     if (erros.length > 0) {
@@ -28,8 +27,7 @@ botaoAdicionar.addEventListener("click", function(cliqueBotao) {
         return; //force quit a função sem inserir na tabela
     }
 
-    var tabela = document.querySelector("#tabela-pacientes");
-    tabela.appendChild(pacienteTr);
+    adicionaPacienteNaTabela(paciente);
 
     //reset limpa os campos após a ação
     form.reset(); 
@@ -56,6 +54,12 @@ function obtemPacientedoForm(form) {
     return paciente;
 }
 
+function adicionaPacienteNaTabela(paciente) {
+    var pacienteTr = montaTr(paciente);
+    var tabela = document.querySelector("#tabela-pacientes");
+    tabela.appendChild(pacienteTr);
+}
+
 // função montaTd tem três utilidades:
 function montaTd(dado, classe) {
     var td = document.createElement("td"); // 1) cria o td
@@ -80,6 +84,7 @@ function montaTr(paciente) {
 
     return pacienteTr;
 }
+
 
 // faz validação do form usando dados do objeto paciente,
 // gerado pela função obtemPacienteDoForm

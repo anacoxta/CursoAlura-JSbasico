@@ -10,8 +10,8 @@
 // mas não as linhas criadas com o formulário
 
 /*
-var linha = document.querySelectorAll(".paciente");
-linha.forEach(function(paciente) {
+var pacientes = document.querySelectorAll(".paciente");
+pacientes.forEach(function(paciente) {
     paciente.addEventListener("dblclick" , function() {
         this.remove();
     });

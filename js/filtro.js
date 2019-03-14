@@ -9,14 +9,14 @@ campoFiltro.addEventListener("input", function() {
     //acesso ao conteúdo de texto do campo de filtragem:
     //console.log(this.value)
 
-    var linha = document.querySelectorAll(".paciente")
+    var pacientes = document.querySelectorAll(".paciente")
     
     //se algo for digitado no filtro
     if (this.value.length > 0) {
 
         // acesso ao nome de todos os pacientes da tabela:
-        for (var i=0; i < linha.length; i++) {
-            var paciente = linha[i];
+        for (var i=0; i < pacientes.length; i++) {
+            var paciente = pacientes[i];
             var tdNome = paciente.querySelector(".info-nome")
             var nome = tdNome.textContent;
 
@@ -31,8 +31,8 @@ campoFiltro.addEventListener("input", function() {
             }
         }
     } else {
-        for (var i = 0; i <linha.length; i++) {
-            var paciente = linha[i];
+        for (var i = 0; i <pacientes.length; i++) {
+            var paciente = pacientes[i];
             paciente.classList.remove("invisivel")
         }
     }
