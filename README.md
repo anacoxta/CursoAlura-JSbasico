@@ -1,5 +1,3 @@
-
-
 ---
 ### Course details
 
@@ -26,8 +24,5 @@ Available at [https://cursos.alura.com.br/certificate/40836370-e39d-4a6a-8ad3-10
 
 
 References:
-[BMI is Inaccurate, Mislabels 54 Million “Obese” or “Overweight” People as Unhealthy](http://thescienceexplorer.com/brain-and-body/bmi-inaccurate-mislabels-54-million-obese-or-overweight-people-unhealthy)
-[51 Ways to Make the World Less Hostile to Fat People](https://broadly.vice.com/en_us/article/mb4e7n/how-to-treat-fat-people-ally-fatphobia)
-[Índice de Massa Corporal é falho, afirma pesquisa](https://www1.folha.uol.com.br/fsp/ciencia/fe1808200603.htm) (pt-BR)
-[Discurso biomédico: um pilar da gordofobia](https://medium.com/ograndeclose/discurso-biom%C3%A9dico-um-pilar-da-gordofobia-9d7c8322162d) (pt-BR)
+[BMI is Inaccurate, Mislabels 54 Million “Obese” or “Overweight” People as Unhealthy](http://thescienceexplorer.com/brain-and-body/bmi-inaccurate-mislabels-54-million-obese-or-overweight-people-unhealthy) | [51 Ways to Make the World Less Hostile to Fat People](https://broadly.vice.com/en_us/article/mb4e7n/how-to-treat-fat-people-ally-fatphobia) | [Índice de Massa Corporal é falho, afirma pesquisa](https://www1.folha.uol.com.br/fsp/ciencia/fe1808200603.htm) (pt-BR) | [Discurso biomédico: um pilar da gordofobia](https://medium.com/ograndeclose/discurso-biom%C3%A9dico-um-pilar-da-gordofobia-9d7c8322162d) (pt-BR)
 
