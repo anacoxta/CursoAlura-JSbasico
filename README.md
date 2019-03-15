@@ -47,3 +47,6 @@ Disponível em [https://cursos.alura.com.br/certificate/40836370-e39d-4a6a-8ad3-
 
 ### Observação
 **Eu acredito que o único propósito do IMC atualmente é forçar pessoas a se submeterem aos padrões de beleza. Mesmo sendo considerado falho pela ciência na detecção/prevenção de doenças, pessoas continuam usando o IMC para medir a saúde alheia, e a sociedade penaliza todos que estão fora da suposta "normalidade". Ou seja: IMC é gordofóbico. Por isso não recomendo este curso.**
+
+References:
+[BMI is Inaccurate, Mislabels 54 Million “Obese” or “Overweight” People as Unhealthy](http://thescienceexplorer.com/brain-and-body/bmi-inaccurate-mislabels-54-million-obese-or-overweight-people-unhealthy) (en) | [51 Ways to Make the World Less Hostile to Fat People](https://broadly.vice.com/en_us/article/mb4e7n/how-to-treat-fat-people-ally-fatphobia) (en) | [Índice de Massa Corporal é falho, afirma pesquisa](https://www1.folha.uol.com.br/fsp/ciencia/fe1808200603.htm) | [Discurso biomédico: um pilar da gordofobia](https://medium.com/ograndeclose/discurso-biom%C3%A9dico-um-pilar-da-gordofobia-9d7c8322162d)
